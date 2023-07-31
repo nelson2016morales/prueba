@@ -1,0 +1,16 @@
+Angular
+Spring Boot y/o Spring Batch
+Microservicios
+SQL con Oracle ( PL/SQL)
+
+--AWS
+
+Ejercicio 1:
+Generar una sentencia SQL (en Oracle, MS SQL o postgresql) que obtenga las liquidaciones de los ultimos 3 meses para el Rut 11222333K.
+Tabla "pensionados" (id_persona NUMBER, rut_pensionado VARCHAR2)
+Tabla "liquidaciones" (fecha_liquidacion DATE, id_persona NUMBER, total_pago NUMBER)
+
+
+
+Ejercicio 2:
+Generar un microservicio con Spring Boot que despligue un metodo GET denominado "healdcheck" que retorne el mensaje "Hola Mundo".
